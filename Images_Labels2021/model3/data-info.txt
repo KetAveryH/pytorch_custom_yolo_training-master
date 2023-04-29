@@ -1,0 +1,25 @@
+=== CALL PARAMETERS ===
+num_epochs = 200
+batch_size = 32
+mini_batch_size = 16
+shuffle = True
+augmented = True
+
+
+
+=== GENERAL DATA INFO ===
+data_path = C:\Users\Alec\Documents\muddsub\MS-CV2\data\train3-416.pt
+input_dim = 416
+
+
+
+=== DATA AUGMENTATION INFO ===
+make_mosaics_aug : 0.0
+make_mixup_aug : 0.0
+make_cutmix_aug : 0.0
+make_cutout_aug : 0.0
+hflip_aug : 0.0
+vflip_aug : 0.0
+rand_rot_aug : 0.0
+iou_threshs = (0.7, 0.2)
+cut_range = (0.3, 0.5)

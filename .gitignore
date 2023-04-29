@@ -1,0 +1,12 @@
+*.jpg
+*.cfg
+*.pyc
+*.data
+*.weights
+*.txt
+*.pt
+
+!train.txt
+!val.txt
+!metrics.txt
+!data-info.txt
